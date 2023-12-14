@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 
@@ -12,41 +12,42 @@ const Navbar = () => {
                         data-bs-target="#navbarSupportedContent" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
-                    <div className="navbar-brand p-2" to="#"><img src="./static/logo.png" alt="Not found" style={{ width: '150px' }} /></div>
+                    <div className="navbar-brand p-2" href="#"><img src="./static/logo.png" alt="Not found" style={{ width: '150px' }} /></div>
 
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="/">Courses</NavLink>
+                                <a href=""></a>
+                                <a className="nav-link" href="#">Courses</a>
                             </li>
                             <li className="nav-item dropdown">
-                                <NavLink className="nav-link" to="*">Practice</NavLink>
+                                <a className="nav-link" href="#">Practice</a>
                                 <ul className="dropdown-menu">
-                                    <li><NavLink className="dropdown-item" to="*">Free Tutorials</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to="*">Articles</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to="*">Coding Problems</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to="*">Free Quizzes</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to="*">Learning Videos</NavLink></li>
+                                    <li><a className="dropdown-item" href="#">Free Tutorials</a></li>
+                                    <li><a className="dropdown-item" href="#">Articles</a></li>
+                                    <li><a className="dropdown-item" href="#">Coding Problems</a></li>
+                                    <li><a className="dropdown-item" href="#">Free Quizzes</a></li>
+                                    <li><a className="dropdown-item" href="#">Learning Videos</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="*">Events</NavLink>
+                                <a className="nav-link" href="#">Events</a>
                             </li>
                             <li className="nav-item dropdown">
-                                <NavLink className="nav-link" to="*">Placements</NavLink>
+                                <a className="nav-link" href="#">Placements</a>
                                 <ul className="dropdown-menu ">
-                                    <li><NavLink className="dropdown-item" to="*">Success Stories</NavLink></li>
-                                    <li><NavLink className="dropdown-item" to="*">Placement Statistics</NavLink></li>
+                                    <li><a className="dropdown-item" href="#">Success Stories</a></li>
+                                    <li><a className="dropdown-item" href="#">Placement Statistics</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="*">Community</NavLink>
+                                <a className="nav-link" href="#">Community</a>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="*">Hire From Us</NavLink>
+                                <a className="nav-link" href="#">Hire From Us</a>
                             </li>
                             <li className="nav-item">
-                                <NavLink className="nav-link" to="*">Refer & Earn</NavLink>
+                                <a className="nav-link" href="#">Refer & Earn</a>
                             </li>
                         </ul>
                         <button className="btn btn-outline-danger " id="nav-btn">SIGN IN</button>
