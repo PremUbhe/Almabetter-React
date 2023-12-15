@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Almabetter-React/static/css/main.105fc137.css",
+    "main.css": "/Almabetter-React/static/css/main.0d0b615c.css",
     "main.js": "/Almabetter-React/static/js/main.3398d9ed.js",
     "static/js/787.86b2f461.chunk.js": "/Almabetter-React/static/js/787.86b2f461.chunk.js",
     "static/media/slick.svg": "/Almabetter-React/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -8,12 +8,12 @@
     "static/media/slick.ttf": "/Almabetter-React/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Almabetter-React/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Almabetter-React/index.html",
-    "main.105fc137.css.map": "/Almabetter-React/static/css/main.105fc137.css.map",
+    "main.0d0b615c.css.map": "/Almabetter-React/static/css/main.0d0b615c.css.map",
     "main.3398d9ed.js.map": "/Almabetter-React/static/js/main.3398d9ed.js.map",
     "787.86b2f461.chunk.js.map": "/Almabetter-React/static/js/787.86b2f461.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.105fc137.css",
+    "static/css/main.0d0b615c.css",
     "static/js/main.3398d9ed.js"
   ]
 }
