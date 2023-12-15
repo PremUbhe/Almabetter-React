@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css";
+import "./WallOFLove.css";
 import CardWall from "./CardWall";
 
 const WallOFLove = () => {

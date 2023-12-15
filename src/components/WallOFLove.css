@@ -16,6 +16,7 @@
 #wall {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 #wall-of-love .button {
