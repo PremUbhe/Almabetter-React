@@ -11,7 +11,7 @@ const Nav2 = () => {
 
     return (
         <>
-            <div className="navbar nav-2" data-aos="fade-up">
+            <div className="navbar nav-2" >
                 <div className="container-fluid d-flex">
                     <div className="navbar-brand p-2 ">
                         <img src="./static/logo.svg" alt="logo" />
